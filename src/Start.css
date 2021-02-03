@@ -1,0 +1,407 @@
+.form-container {
+    padding: 100px auto;
+    width: 100%;
+    background-color: #333333;
+    position: relative;
+    height: 979px;
+    display: grid;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-content-left {
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    border-radius: 10px 0 0 10px;
+    position: relative;
+  }
+  
+  .form-img {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form-img-2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+  
+  .form-content-right {
+      margin:10%;
+    position: relative;
+    background-color: #333333;
+  }
+  
+  .form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  .form-content1{
+    width:100%;
+    padding-bottom:10px;
+}
+  
+  .form-inputs {
+    width: 50%;
+    display: inline-block;
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+
+  .form-inputs-left{
+    float:right;
+    padding-right:15px;
+  }
+
+  .form-inputs-right{
+      float:left;
+      padding-left:15px;
+}
+
+  .check{
+    background-image: url('./images/check.svg');
+  }
+
+  .form-inputs2 p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  
+  .form-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #bdbdbd;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .spnCreateAccount{
+    width: 237px;
+    height: 46px;
+    margin: 130 137px 31px 45px;
+    font-family: AvenirNext;
+    font-size: 34px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
+    padding: 60px;
+  }
+  
+  .form-input {
+    width: 220px;
+  height: 36px;
+  margin: 12px 24px 25px 0;
+  border-radius: 4px;
+  border: solid 0 #bdbdbd;
+  background-color: #1e1e1e;
+  color:#bdbdbd;
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    
+    font-size: 12px;
+  }
+  
+  .form-input-btn {
+    width: 91px;
+  height: 36px;
+  background-color: #78ba96;
+  margin: 24px 105.5px 16px 42.5px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  }
+
+  .form-input-btn1 {
+    width: 91px;
+  height: 36px;
+  background-color: #78ba96;
+  margin: 24px 105.5px 16px 42.5px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  }
+
+  .txtSignUp{
+    width: 43px;
+    height: 16px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color: #78ba96;
+    font-weight: 600;
+  }
+
+  .form-content{
+      
+    width: 100%;
+    height: 100%; 
+  }
+
+  .form-content-top{
+    width: calc(100%-30px);
+    height: 38px;
+    background-color: #333333;
+    padding-left: 30px;
+  }
+
+   .form-content-board{
+    width: 100%;
+    height: 940px;
+   }
+
+   .form-content-board-left{
+    background-color: #333333;
+    width: 42px;
+    height: 100%;
+    position:relative;
+    float:left;
+   }
+   
+   .form-content-board-right{
+    background-color: #1e1e1e;
+    width: calc(100% - 43px);
+    height: 100%;
+    float:right;
+    position:relative;
+   }
+
+   .icongrid{
+    padding:10px;
+    object-fit: contain;
+    float:left;
+   }
+
+   .button-menu{
+    height: 16px;
+    border:none;
+    margin-right:20px;
+    margin-top:10px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    cursor:pointer;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    background-color: #333333;
+   }
+
+    .button-menu:hover{
+        font-weight: 600;
+    }
+
+   .form-content-createnewproject{
+    width: 350px;
+    height: 350px;
+    padding: 70px 24px;
+    border-radius: 8px;
+    background-color: #333333;
+    position:relative;
+    float:left;
+    margin-right:70px;
+   }
+
+   .form-content-exploredocumentation{
+    width: 350px;
+    height: 350px;
+    padding: 70px 24px;
+    border-radius: 8px;
+    background-color: #333333;
+    position:relative;
+    float:right;
+   }
+
+   .spnWelcome{
+    height: 46px;
+    font-family: AvenirNext;
+    font-size: 34px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    top:150px;
+    position:fixed;
+   }
+
+   .form-content-info{
+       position:relative;
+       float:left;
+       text-align:center;
+       margin-top:30px;
+   }
+
+   .form-content-welcome{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10%;  
+   }
+
+   .iconwelcome{
+       float:left;
+       position:relative;
+       margin-left:120px;
+       margin-top:50px;
+   }
+
+   .spnTitleWelcome{
+    width: 173px;
+    height: 25px;
+    margin-left: 50px;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #bdbdbd;
+   }
+
+   .form-content-details{
+    margin-top:30px;
+    width: 302px;
+    height: 44px;
+    margin-left:20px;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #bdbdbd;
+   }
+
+   .button-menu-notif{
+    position:relative;
+    float:right;
+    margin-top: 10px;
+    margin-right:20px;
+   }
+
+   .button-menu-user{
+    position:relative;
+    float:right; 
+    width: 18px;
+    height: 18px;
+    background-color: #999999;
+    border-radius:20px; 
+    margin-top: 10px;
+    margin-right:2px;
+    }
+
+    .spnUserName{
+    position:relative;
+    float:right; 
+    height: 16px;
+    margin: 1px 8px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right:10px;
+    }
+
+    .lblError{
+        height:25px;
+        display:block;
+        color: #c66876;
+        font-family: AvenirNext;
+        font-size: 10px;
+    }
