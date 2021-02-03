@@ -24,8 +24,8 @@ export class AwesomeTabs extends Component {
                 active={ this.state.activeTab }
                 onTabSwitch={ this.handleTabSwitch.bind(this) }
             >
-                <Tab title="Tab1">foo</Tab>
-                <Tab title="Tab2">bar</Tab>
+                <Tab title="Tab1">first tab</Tab>
+                <Tab title="Tab2">second tab</Tab>
             </Tabs>
         );
     }
